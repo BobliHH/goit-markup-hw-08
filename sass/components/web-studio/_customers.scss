@@ -1,0 +1,22 @@
+.customers-list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 0px;
+    margin: 0px auto 94px;
+    color: var(--highlight-color);
+    fill: red;
+  }
+  
+  .customers-logo {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    fill: #afb1b8;
+  }
+  
+  .customers-logo:hover {
+    border-color: var(--highlight-color);
+    fill: var(--highlight-color);
+  }

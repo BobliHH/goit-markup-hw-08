@@ -1,0 +1,257 @@
+.hero-section {
+    background-color: var(--dark-bg);
+    padding: 106px 0;
+    background-image: url("../images/hero-bg\ \(1\).jpg");
+    /* border: 7px solid red; */
+  }
+  
+  .hero-title {
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+
+  .hero-request-button-container {
+    display: flex;
+    justify-content: center;
+    /* border: 3px solid green; */
+  }
+  
+  .hero-request-button {
+    color: var(--white-color);
+    background-color: var(--highlight-color);
+    border: 1px solid var(--highlight-color);
+    margin: 10px 20px;
+    /* added margin so the button does not change position when hovering because of the padding */
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    padding: 0;
+  }
+  
+  .hero-request-button:hover,
+  .hero-request-button:active,
+  .hero-request-button:focus {
+    background-color: #188ce8;
+    margin: 0;
+    padding: 10px 20px;
+  }
+  
+//   .skills-section { 
+//    margin-top: 94px; 
+//    border: 7px solid red; 
+//    }
+  
+//    .what-we-do-section { 
+//    border: 7px solid red; 
+//    } 
+  
+  .our-team-section {
+    background-color: var(--button-background);
+    // padding-bottom: 94px;
+    /* border: 7px solid red; */
+  }
+
+  .skills-list {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+  }
+  
+  .skills-list-item {
+    background-color: var(--button-background);
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skills-list-text {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  .skills-list-item-text {
+    flex-basis: 270px;
+    flex-grow: 0;
+    flex-shrink: 1;
+  }
+
+  .skills-text-container{
+    margin-top: 30px;
+  }
+  
+  .skills-list {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+  }
+  
+  .skills-list-item {
+    flex-basis: 270px;
+    flex-grow: 0;
+    flex-shrink: 1;
+  }
+  
+  .skills-subtitle {
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+  }
+  
+  .skills-text {
+    color: var(--text-color);
+  }
+  
+  .skills-icon {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .what-we-do-list {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+  }
+  
+  .what-we-do-list-item {
+    flex-basis: 270px;
+    flex-grow: 0;
+    flex-shrink: 1;
+  }
+  
+  .what-we-do-overlay-container {
+    overflow: hidden;
+    position: relative;
+    /* display: flex; */
+  }
+  
+  .what-we-do-overlay {
+    width: 370px;
+    height: 70px;
+    /* border: 1px solid red; */
+    background-color: rgba(47, 48, 58, 0.8);
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    bottom: 0;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+    padding: 27px;
+  }
+  
+  .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  
+//   .our-team-title {
+//     padding-top: 94px;
+//   }
+  
+  .our-team-list {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+  }
+  
+  .our-team-list-item {
+    background-color: #ffffff;
+    flex-basis: 270px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+  
+  .our-team-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  
+  .our-team-text {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .social-icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+  }
+  
+  .social-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .social-link {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* fill: #AFB1B8; */
+    color: #afb1b8;
+  }
+  
+  .social-link:hover {
+    background-color: var(--highlight-color);
+    color: #ffffff;
+  }
+  
+  .customers-list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 0px;
+    margin: 0px auto 94px;
+    color: var(--highlight-color);
+    fill: red;
+  }
+  
+  .customers-logo {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    fill: #afb1b8;
+  }
+  
+  .customers-logo:hover {
+    border-color: var(--highlight-color);
+    fill: var(--highlight-color);
+  }
+
+  
+
+
+
