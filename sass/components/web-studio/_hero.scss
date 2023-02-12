@@ -1,8 +1,29 @@
 .hero-section {
+    margin: 0 auto;
+    max-width: 480px;
+    height: 400px;
     background-color: var(--dark-bg);
+    background-size: cover;
+    background-position: center center;
     padding: 106px 0;
     background-image: url("../images/hero-bg\ \(1\).jpg");
     /* border: 7px solid red; */
+  }
+
+  @media screen and (min-width: 768px) {
+    .hero-section{
+      max-width: 1200px;
+      height: 400px;
+      background-image: "../images/hero-bg\ \(1\).jpg";
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .hero-section{
+      max-width: 1600px;
+      height: 600px;
+      background-image: "../images/hero-bg\ \(1\).jpg";
+    }
   }
   
   .hero-title {
