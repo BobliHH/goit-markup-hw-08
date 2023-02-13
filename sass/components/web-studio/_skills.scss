@@ -58,3 +58,15 @@
     width: 70px;
     height: 70px;
   }
+
+  @media screen and (min-width: 768px){
+    .skills-section .container{
+      max-width: 1200px;
+    }
+  }
+
+  @media screen and (min-width: 1200px){
+    .skills-section .container{
+      max-width: 1600px;
+    }
+  }

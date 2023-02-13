@@ -38,3 +38,15 @@
     text-align: center;
     padding-bottom: 50px;
   }
+
+  @media screen and (min-width: 768px){
+    .what-we-do-section .container{
+      max-width: 1200px;
+    }
+  }
+
+  @media screen and (min-width: 1200px){
+    .what-we-do-section .container{
+      max-width: 1600px;
+    }
+  }

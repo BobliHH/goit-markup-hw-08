@@ -10,11 +10,20 @@
     /* border: 7px solid red; */
   }
 
+  .hero-title-container{
+    width: 360px;
+    height: 84px;
+  }
+
   @media screen and (min-width: 768px) {
     .hero-section{
       max-width: 1200px;
       height: 400px;
       background-image: "../images/hero-bg\ \(1\).jpg";
+    }
+    .hero-title-container{
+      justify-content: center;
+      align-items: center;
     }
   }
 
@@ -23,6 +32,13 @@
       max-width: 1600px;
       height: 600px;
       background-image: "../images/hero-bg\ \(1\).jpg";
+    }
+    .hero-title-container{
+      width: 696px;
+      height: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
   
