@@ -73,10 +73,14 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
   display: flex;
+  flex-direction: column;
+  // max-width: 1200px;
+
 }
 
 .portfolio-container {
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -97,3 +101,4 @@ img {
   // padding-bottom: 0px;
   padding: 0px;
 }
+
