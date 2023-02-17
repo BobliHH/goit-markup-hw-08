@@ -2,14 +2,14 @@
     display: flex;
     gap: 30px;
     justify-content: space-between;
+    // flex-direction: column;
   }
   
   .skills-list-item {
+    display: flex;
+    flex-direction: column;
     background-color: var(--button-background);
     border-radius: 4px;
-    width: 270px;
-    height: 120px;
-    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -43,6 +43,7 @@
   }
   
   .skills-subtitle {
+    display: flex;
     padding-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
@@ -53,14 +54,37 @@
   .skills-text {
     color: var(--text-color);
   }
+
+  // width: 270px;
+  //   height: 120px;
   
   .skills-icon {
     width: 70px;
     height: 70px;
   }
 
+  .grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: #{gap}px;
+    &__item{
+      border: 1px solid red;
+      flex-grow: 0;
+      flex-shrink: 0;
+      text-align: center;
+    }
+  }
+
+  .grid--1-2-4{
+    grid__item{
+      flex-basis: 100%;
+    }
+  }
+
   @media screen and (min-width: 768px){
-    .skills-section .container{
+    .grid--1-2-4 .grid__item{
+        flex-basis: calc(100% - #{$gap})/2;
     }
   }
 
@@ -68,4 +92,11 @@
     .skills-section .container{
       max-width: 1200px;
     }
+    .grid--1-2-4 .grid__item{
+        flex-basis: calc(100% - #{3*$gap})/4;
+    }
   }
+  
+  
+
+  
