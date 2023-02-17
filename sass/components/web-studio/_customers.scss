@@ -9,7 +9,11 @@
   }
   
   .customers-logo {
-    width: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    // width: 170px;
     height: 92px;
     border: 1px solid #afb1b8;
     border-radius: 4px;
@@ -21,14 +25,37 @@
     fill: var(--highlight-color);
   }
 
-  @media screen and (min-width: 768px){
-    .our-team-section .container{
-      
+  .grid--2-3-6{
+    .grid__item{
+      flex-basis: calc((100% - #{$gap}px)/2);
     }
   }
+  .customers-list-item {
+    display: flex;
+    justify-content: space-around;
+    a{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+
+  @media screen and (min-width: 768px){
+    .grid--2-3-6{
+      .grid__item{
+        flex-basis: calc((100% - #{2*$gap}px)/3);
+      }
+  }
+}
+
 
   @media screen and (min-width: 1200px){
     .our-team-section .container{
       max-width: 1200px;
     }
+    .grid--2-3-6{
+      .grid__item{
+        flex-basis: calc((100% - #{5*$gap}px)/6);
+      }
+  }
   }
