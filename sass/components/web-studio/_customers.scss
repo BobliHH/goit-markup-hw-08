@@ -9,11 +9,12 @@
   }
   
   .customers-logo {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    // width: 170px;
+    // display: flex;
+    // flex-wrap: wrap;
+    // align-items: center;
+    // justify-content: center;
+    // // width: 170px;
+    // flex-basis: calc((100% - #{$gap}px)/2);
     height: 92px;
     border: 1px solid #afb1b8;
     border-radius: 4px;
