@@ -5,7 +5,8 @@
     background-size: cover;
     background-position: center center;
     padding: 70px 0;
-    background-image: url("../images/hero-bg\ \(1\).jpg");
+    background-image: url("../images/hero-img-768.jpg");
+
     /* border: 7px solid red; */
     
   }
@@ -45,7 +46,7 @@
   @media screen and (min-width: 768px) {
     .hero-section{
       height: 400px;
-      background-image: "../images/hero-bg\ \(1\).jpg";
+      background-image: url("../images/hero-img-1200.jpg");
     }
     .hero-title-container{
       justify-content: center;
@@ -57,7 +58,7 @@
     .hero-section{
       max-width: 1600px;
       height: 600px;
-      background-image: "../images/hero-bg\ \(1\).jpg";
+      background-image: url("../images/hero-img-1600.jpg");
     }
     .hero-title-container{
       // border: 3px solid red;
